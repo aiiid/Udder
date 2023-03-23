@@ -13,7 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    //here should be did received memory warning lol
+    override func didReceiveMemoryWarning() {
+        print("memory warning received")
+    }
 
 }
 
